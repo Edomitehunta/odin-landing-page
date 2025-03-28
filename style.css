@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    outline: 2px solid red;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.author{
+    display: flex;
+    align-self: flex-end;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-container{
+    display: flex;
+    gap: 16px;
+}
+
+.bordered-box{
+    outline: 2px solid blue;
+    width: 50px;
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
